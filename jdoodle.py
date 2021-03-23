@@ -72,4 +72,4 @@ for i in range(0, laptops):
         df[prop_keys].loc[i] = prop_values
 df.head()
 
-df.to_csv("C:/Users/tasne/thing/laptop_data.csv", index=False)
+df.to_csv("path", index=False)
